@@ -11,8 +11,8 @@
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
-            android:id="@+id/action_mainFragment_to_logInFragment"
-            app:destination="@id/logInFragment"
+            android:id="@+id/action_mainFragment_to_profileFragment"
+            app:destination="@id/profileFragment"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
@@ -22,15 +22,7 @@
         android:id="@+id/logInFragment"
         android:name="com.example.conditionalnavigation.LogInFragment"
         android:label="fragment_log_in"
-        tools:layout="@layout/fragment_log_in" >
-        <action
-            android:id="@+id/action_logInFragment_to_profileFragment"
-            app:destination="@id/profileFragment"
-            app:enterAnim="@anim/slide_in_right"
-            app:exitAnim="@anim/slide_out_left"
-            app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right"/>
-    </fragment>
+        tools:layout="@layout/fragment_log_in" />
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.conditionalnavigation.ProfileFragment"

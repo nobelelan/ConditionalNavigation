@@ -28,7 +28,7 @@ class MainFragment : Fragment() {
         _binding = FragmentMainBinding.bind(view)
 
         binding.btnShowProfile.setOnClickListener {
-            val action = MainFragmentDirections.actionMainFragmentToLogInFragment()
+            val action = MainFragmentDirections.actionMainFragmentToProfileFragment()
             findNavController().navigate(action)
         }
 
