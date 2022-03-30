@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Conditional Navigation</string>
+    <string name="welcome_to_your_profile">Welcome %s,to your profile.</string>
+</resources>
